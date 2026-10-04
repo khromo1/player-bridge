@@ -1,4 +1,5 @@
 package streaming.player;
 
-public class AudioOutput {
+public interface AudioOutput {
+    void output(String adioData);
 }
